@@ -12,6 +12,7 @@ public class WizardRepository implements CrudDao<Wizard> {
     private final static String DB_USER = "h4rryp0tt3r";
     private final static String DB_PASSWORD = "Horcrux4life!";
 
+
     @Override
     public Wizard save(Wizard wizard) {
         try {
